@@ -1,0 +1,7 @@
+com\vtiger\testScript\CreateProduct.class
+com\vtiger\testScript\CreateOrganization.class
+com\vtiger\testScript\CreateContact.class
+com\vtiger\testScript\CreateCampaignTest.class
+com\vtiger\testScript\CreateOpportunity.class
+com\vtiger\testScript\CreateQuotesTest.class
+com\vtiger\testScript\DeleteCampaign.class

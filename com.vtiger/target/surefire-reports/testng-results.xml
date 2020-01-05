@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Campaign Got Created]]>
+    </line>
+    <line>
+      <![CDATA[Quote Got Created]]>
+    </line>
+    <line>
+      <![CDATA[Duplicate Record Created]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="221176" started-at="2020-01-05T23:44:43 IST" finished-at="2020-01-05T23:48:24 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="221176" started-at="2020-01-05T23:44:43 IST" finished-at="2020-01-05T23:48:24 IST">
+      <class name="com.vtiger.testScript.CreateCampaignTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testScript.CreateCampaignTest@589838eb]" name="launchBrowser" is-config="true" duration-ms="47333" started-at="2020-01-05T23:44:43 IST" finished-at="2020-01-05T23:45:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoVtiger()[pri:0, instance:com.vtiger.testScript.CreateCampaignTest@589838eb]" name="loginIntoVtiger" is-config="true" duration-ms="24412" started-at="2020-01-05T23:45:31 IST" finished-at="2020-01-05T23:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoVtiger -->
+        <test-method status="PASS" signature="createCampaignInVtiger()[pri:0, instance:com.vtiger.testScript.CreateCampaignTest@589838eb]" name="createCampaignInVtiger" duration-ms="54519" started-at="2020-01-05T23:45:55 IST" finished-at="2020-01-05T23:46:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaign Got Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaignInVtiger -->
+        <test-method status="PASS" signature="logoutFromVtiger()[pri:0, instance:com.vtiger.testScript.CreateCampaignTest@589838eb]" name="logoutFromVtiger" is-config="true" duration-ms="3474" started-at="2020-01-05T23:46:50 IST" finished-at="2020-01-05T23:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromVtiger -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testScript.CreateCampaignTest@589838eb]" name="closeBrowser" is-config="true" duration-ms="204" started-at="2020-01-05T23:46:53 IST" finished-at="2020-01-05T23:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testScript.CreateCampaignTest -->
+      <class name="com.vtiger.testScript.CreateQuotesTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.vtiger.testScript.CreateQuotesTest@42dafa95]" name="launchBrowser" is-config="true" duration-ms="12995" started-at="2020-01-05T23:46:53 IST" finished-at="2020-01-05T23:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoVtiger()[pri:0, instance:com.vtiger.testScript.CreateQuotesTest@42dafa95]" name="loginIntoVtiger" is-config="true" duration-ms="5885" started-at="2020-01-05T23:47:06 IST" finished-at="2020-01-05T23:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoVtiger -->
+        <test-method status="PASS" signature="createQuotecreateOrganization()[pri:0, instance:com.vtiger.testScript.CreateQuotesTest@42dafa95]" name="createQuotecreateOrganization" duration-ms="64977" started-at="2020-01-05T23:47:12 IST" finished-at="2020-01-05T23:48:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Quote Got Created]]>
+            </line>
+            <line>
+              <![CDATA[Duplicate Record Created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createQuotecreateOrganization -->
+        <test-method status="PASS" signature="logoutFromVtiger()[pri:0, instance:com.vtiger.testScript.CreateQuotesTest@42dafa95]" name="logoutFromVtiger" is-config="true" duration-ms="6977" started-at="2020-01-05T23:48:17 IST" finished-at="2020-01-05T23:48:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromVtiger -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testScript.CreateQuotesTest@42dafa95]" name="closeBrowser" is-config="true" duration-ms="167" started-at="2020-01-05T23:48:24 IST" finished-at="2020-01-05T23:48:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testScript.CreateQuotesTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
