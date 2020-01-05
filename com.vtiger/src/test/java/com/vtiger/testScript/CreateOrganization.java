@@ -13,7 +13,8 @@ import com.vtiger.objectRepository.OrganizationInformationPage_Pom;
 import com.vtiger.objectRepository.OrganizationPage_Pom;
 
 public class CreateOrganization extends BaseClass  {
-		
+
+	
 		@Test
 		public void createOrganization() {
 			HomePage_Pom hp = PageFactory.initElements(driver, HomePage_Pom.class);
